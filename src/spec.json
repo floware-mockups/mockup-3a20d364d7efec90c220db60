@@ -1,0 +1,213 @@
+{
+  "title": "Gestione pratiche dello sportello al cittadino",
+  "description": "Prototipo navigabile per consultare e registrare pratiche inventate, filtrandole per stato e scadenza.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Riepilogo delle pratiche e accesso rapido agli elenchi filtrabili.",
+      "metrics": [
+        {
+          "label": "Pratiche totali",
+          "value": "8"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "3"
+        },
+        {
+          "label": "In attesa",
+          "value": "2"
+        },
+        {
+          "label": "Completate",
+          "value": "2"
+        },
+        {
+          "label": "In scadenza entro 7 giorni",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Codice pratica",
+        "Servizio",
+        "Oggetto",
+        "Data apertura",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "LUM-2401",
+          "Sportello Lumo",
+          "Richiesta di attestazione",
+          "2025-04-02",
+          "2025-04-18",
+          "In lavorazione"
+        ],
+        [
+          "VEL-2402",
+          "Ufficio Vela",
+          "Aggiornamento recapito",
+          "2025-04-03",
+          "2025-04-22",
+          "In attesa"
+        ],
+        [
+          "NUB-2403",
+          "Sportello Nubi",
+          "Richiesta di autorizzazione",
+          "2025-04-04",
+          "2025-04-16",
+          "In lavorazione"
+        ],
+        [
+          "SOL-2404",
+          "Servizi Soli",
+          "Rilascio di certificazione",
+          "2025-04-05",
+          "2025-04-25",
+          "Completata"
+        ],
+        [
+          "RIV-2405",
+          "Ufficio Riva",
+          "Segnalazione di manutenzione",
+          "2025-04-07",
+          "2025-04-17",
+          "In attesa"
+        ],
+        [
+          "LUM-2406",
+          "Sportello Lumo",
+          "Richiesta di accesso agli atti",
+          "2025-04-08",
+          "2025-04-15",
+          "In lavorazione"
+        ],
+        [
+          "VEL-2407",
+          "Ufficio Vela",
+          "Rinnovo di concessione",
+          "2025-04-09",
+          "2025-04-20",
+          "Completata"
+        ],
+        [
+          "NUB-2408",
+          "Sportello Nubi",
+          "Richiesta di verifica documentale",
+          "2025-04-10",
+          "2025-04-19",
+          "In lavorazione"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "elenco-pratiche",
+      "title": "Elenco pratiche",
+      "description": "Consulta e filtra le pratiche per codice, servizio, stato e scadenza.",
+      "metrics": [],
+      "columns": [
+        "Codice pratica",
+        "Servizio",
+        "Oggetto",
+        "Data apertura",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "LUM-2401",
+          "Sportello Lumo",
+          "Richiesta di attestazione",
+          "2025-04-02",
+          "2025-04-18",
+          "In lavorazione"
+        ],
+        [
+          "VEL-2402",
+          "Ufficio Vela",
+          "Aggiornamento recapito",
+          "2025-04-03",
+          "2025-04-22",
+          "In attesa"
+        ],
+        [
+          "NUB-2403",
+          "Sportello Nubi",
+          "Richiesta di autorizzazione",
+          "2025-04-04",
+          "2025-04-16",
+          "In lavorazione"
+        ],
+        [
+          "SOL-2404",
+          "Servizi Soli",
+          "Rilascio di certificazione",
+          "2025-04-05",
+          "2025-04-25",
+          "Completata"
+        ],
+        [
+          "RIV-2405",
+          "Ufficio Riva",
+          "Segnalazione di manutenzione",
+          "2025-04-07",
+          "2025-04-17",
+          "In attesa"
+        ],
+        [
+          "LUM-2406",
+          "Sportello Lumo",
+          "Richiesta di accesso agli atti",
+          "2025-04-08",
+          "2025-04-15",
+          "In lavorazione"
+        ],
+        [
+          "VEL-2407",
+          "Ufficio Vela",
+          "Rinnovo di concessione",
+          "2025-04-09",
+          "2025-04-20",
+          "Completata"
+        ],
+        [
+          "NUB-2408",
+          "Sportello Nubi",
+          "Richiesta di verifica documentale",
+          "2025-04-10",
+          "2025-04-19",
+          "In lavorazione"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-pratica",
+      "title": "Nuova pratica",
+      "description": "Registra una pratica con i dati essenziali per il suo monitoraggio.",
+      "metrics": [],
+      "columns": [
+        "Codice pratica",
+        "Servizio",
+        "Oggetto",
+        "Data apertura",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Codice pratica",
+        "Servizio",
+        "Oggetto",
+        "Data apertura",
+        "Scadenza",
+        "Stato"
+      ]
+    }
+  ]
+}
